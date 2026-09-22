@@ -19,7 +19,7 @@ import {
   X,
 } from 'lucide-react';
 
-import receiptLogo from '@assets/jai-bhole-logo.svg';
+import receiptLogo from '@assets/jai_bhole_round_logo-2_1789854486547.png';
 
 type Category = 'All' | 'Milk sweets' | 'Kaju specials' | 'Ladoo' | 'Traditional';
 type ProductCategory = Exclude<Category, 'All'>;
@@ -479,7 +479,6 @@ function App() {
       if (cleaned) return;
       cleaned = true;
       setCart([]); setDiscount(0); setPayment('Cash'); setCustomerName(''); setCustomerPhone('');
-      setPrintBillData(null);
     };
     window.addEventListener('afterprint', finishPrinting, { once: true });
     window.print();

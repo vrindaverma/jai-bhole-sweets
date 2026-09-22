@@ -122,12 +122,13 @@ input:focus-visible {
 
 .brand-mark,
 .header-logo {
-  width: 152px;
-  height: 55px;
+  width: 76px;
+  height: 76px;
 }
 
 .header-logo {
   object-fit: contain;
+  border-radius: 50%;
   filter: drop-shadow(0 5px 7px hsl(16 73% 32% / 0.16));
 }
 
@@ -1510,10 +1511,11 @@ input:focus-visible {
   }
 
   .print-receipt-logo {
-    width: 70mm;
-    height: 25mm;
+    width: 32mm;
+    height: 32mm;
     display: block;
     object-fit: contain;
+    border-radius: 50%;
   }
 
   .print-receipt-brand h1 {
