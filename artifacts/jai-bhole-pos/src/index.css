@@ -1458,13 +1458,14 @@ input:focus-visible {
 
 @media print {
   @page {
-    size: 80mm auto;
+    size: 4in 6in;
     margin: 0;
   }
 
   html,
   body {
-    width: 80mm;
+    width: 4in;
+    height: 6in;
     min-width: 0;
     min-height: 0;
     margin: 0;
@@ -1482,8 +1483,8 @@ input:focus-visible {
 
   .pos-shell {
     display: block;
-    width: 80mm;
-    min-height: 0;
+    width: 4in;
+    min-height: 6in;
     padding: 0;
     background: #fff;
   }
@@ -1494,8 +1495,10 @@ input:focus-visible {
 
   .print-receipt {
     display: block !important;
-    width: 80mm;
-    padding: 5mm 4mm 4mm;
+    box-sizing: border-box;
+    width: 4in;
+    min-height: 6in;
+    padding: 5mm 6mm 4mm;
     background: #fff;
     color: #2f2119;
     font-family: Arial, "Noto Sans Devanagari", "Nirmala UI", sans-serif;
@@ -1654,6 +1657,7 @@ input:focus-visible {
 
   .print-summary {
     display: grid;
+    break-inside: avoid;
     gap: 1.5mm;
     color: #4a2418;
     font-size: 9px;
@@ -1694,6 +1698,7 @@ input:focus-visible {
 
   .print-receipt-footer {
     display: grid;
+    break-inside: avoid;
     gap: 1.5mm;
     margin-top: 6mm;
     padding-top: 3mm;
