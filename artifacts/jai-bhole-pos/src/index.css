@@ -1498,12 +1498,12 @@ input:focus-visible {
     box-sizing: border-box;
     width: 4in;
     min-height: 6in;
-    padding: 5mm 6mm 4mm;
+    padding: 3mm 5mm 2.5mm;
     background: #fff;
     color: #2f2119;
     font-family: Arial, "Noto Sans Devanagari", "Nirmala UI", sans-serif;
-    font-size: 9px;
-    line-height: 1.35;
+    font-size: 8px;
+    line-height: 1.25;
   }
 
   .print-receipt-brand {
@@ -1514,8 +1514,8 @@ input:focus-visible {
   }
 
   .print-receipt-logo {
-    width: 32mm;
-    height: 32mm;
+    width: 21mm;
+    height: 21mm;
     display: block;
     object-fit: contain;
     border-radius: 50%;
@@ -1541,7 +1541,7 @@ input:focus-visible {
   }
 
   .print-receipt-tagline {
-    margin: 1.5mm 0 0;
+    margin: 0.7mm 0 0;
     color: #4a2418;
     font-family: "Noto Sans Devanagari", "Nirmala UI", Arial, sans-serif;
     font-size: 8px;
@@ -1549,8 +1549,8 @@ input:focus-visible {
   }
 
   .print-receipt-type {
-    margin: 2mm 0 0;
-    padding: 1mm 3mm;
+    margin: 1mm 0 0;
+    padding: 0.7mm 3mm;
     border: 0.25mm solid #a2762a;
     border-radius: 5mm;
     color: #4a2418;
@@ -1560,7 +1560,7 @@ input:focus-visible {
   }
 
   .print-shop-details {
-    margin: 1.5mm 0 0;
+    margin: 0.7mm 0 0;
     color: #4a2418;
     font-size: 7px;
     line-height: 1.45;
@@ -1568,14 +1568,14 @@ input:focus-visible {
 
   .print-customer {
     display: grid;
-    gap: 1mm;
+    gap: 0.5mm;
     color: #4a2418;
     font-size: 8px;
   }
 
   .print-divider {
     height: 0;
-    margin: 3mm 0;
+    margin: 1.4mm 0;
     border-top: 0.35mm solid #a2762a;
     box-shadow: 0 0.4mm 0 #4a2418;
   }
@@ -1606,7 +1606,7 @@ input:focus-visible {
   }
 
   .print-item-table th {
-    padding: 0 0 1.5mm;
+    padding: 0 0 0.8mm;
     border-bottom: 0.25mm solid #a2762a;
     color: #4a2418;
     font-size: 7px;
@@ -1616,7 +1616,7 @@ input:focus-visible {
   }
 
   .print-item-table td {
-    padding: 1.5mm 0 1mm;
+    padding: 0.8mm 0 0.65mm;
     border-bottom: 0.15mm solid #eadfc8;
     vertical-align: top;
     overflow-wrap: anywhere;
@@ -1658,7 +1658,7 @@ input:focus-visible {
   .print-summary {
     display: grid;
     break-inside: avoid;
-    gap: 1.5mm;
+    gap: 0.8mm;
     color: #4a2418;
     font-size: 9px;
   }
@@ -1678,8 +1678,8 @@ input:focus-visible {
   }
 
   .print-total {
-    margin-top: 1mm;
-    padding-top: 2mm;
+    margin-top: 0.5mm;
+    padding-top: 1mm;
     border-top: 0.35mm solid #4a2418;
     color: #4a2418;
     font-size: 12px;
@@ -1699,9 +1699,9 @@ input:focus-visible {
   .print-receipt-footer {
     display: grid;
     break-inside: avoid;
-    gap: 1.5mm;
-    margin-top: 6mm;
-    padding-top: 3mm;
+    gap: 0.7mm;
+    margin-top: 2mm;
+    padding-top: 1.5mm;
     border-top: 0.35mm solid #a2762a;
     color: #4a2418;
     text-align: center;
@@ -1710,7 +1710,7 @@ input:focus-visible {
   .print-receipt-footer strong {
     color: #a2762a;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .print-receipt-footer span {
